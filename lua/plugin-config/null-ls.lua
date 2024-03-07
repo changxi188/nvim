@@ -10,7 +10,7 @@ local sources = {
     null_ls.builtins.formatting.clang_format.with(
     {
         filetypes = { "c", "cpp", "cuda",},
-        args = {"--assume-filename", "/home/holo/.clang-format"}
+        -- args = {"--assume-filename", "/home/ccx/.clang-format"}
     }
     ),
     null_ls.builtins.diagnostics.write_good,
